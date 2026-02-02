@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A clínica</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header class="topo">
+
+<header class="topo">
     <div class="container">
         <div class="logo-area">
             <a href="index.html">
@@ -16,10 +18,10 @@
         </div>
         
         <nav>
+            <a href="Inicio.html">Inicio</a>
             <a href="Aclinica.html">A Clínica</a>
             <a href="Atendimentos.html">Atendimentos</a>
             <a href="Profissionais.html">Profissionais</a>
-            <a href="Contato.html">Contato</a>
             <a href="FAQ.html">FAQ</a>
         </nav>
     </div>
@@ -75,6 +77,44 @@
     </div>
 </section>
 
+<div class="social-card">
+
+  <div class="whatsapp-wrapper">
+    <button id="whatsappToggle" class="whatsapp-main" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </button>
+
+    <div id="whatsappMenu" class="whatsapp-options">
+      <a href="https://wa.me/" target="_blank">Profissional 1</a>
+      <a href="https://wa.me/" target="_blank">Profissional 2</a>
+      <a href="https://wa.me/" target="_blank">Profissional 3</a>
+    </div>
+  </div>
+
+  <a href="https://instagram.com/" target="_blank" class="instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://facebook.com/" target="_blank" class="facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+</div>
+
+<script>
+  const toggle = document.getElementById('whatsappToggle');
+  const menu = document.getElementById('whatsappMenu');
+
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    menu.classList.toggle('active');
+  });
+
+  document.addEventListener('click', () => {
+    menu.classList.remove('active');
+  });
+</script>
+
 
 <footer class="rodape">
   <div class="container rodape-grid">
@@ -102,8 +142,9 @@
       <a href="politica.html">Política de Privacidade</a>
 
       <div class="redes">
-        <a href="#">Instagram</a>
-        <a href="#">WhatsApp</a>
+        <a href="https://instagram.com/">Instagram</a>
+        <a href="https://wa.me/">WhatsApp</a>
+        <a href="https://facebook.com/">Facebook</a>
       </div>
     </div>
 

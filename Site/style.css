@@ -19,7 +19,7 @@ body {
     margin: auto;
 }
 
-/* TOPO */
+
 .topo {
     background: #2f2f2f;
     padding: 20px 0;
@@ -42,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-/* HERO */
+
 .hero {
     background: #dfe6e3;
     padding: 80px 0;
@@ -65,7 +65,7 @@ body {
     margin: auto;
 }
 
-/* SEÇÕES */
+
 .section {
     padding: 60px 0;
 }
@@ -79,7 +79,7 @@ body {
     background: #eef1ef;
 }
 
-/* CARDS ATENDIMENTOS */
+
 .cards {
     display: flex;
     gap: 20px;
@@ -102,7 +102,7 @@ body {
     text-decoration: none;
 }
 
-/* PROFISSIONAIS */
+
 .cards-profissionais {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -149,7 +149,7 @@ body {
     font-size: 0.95rem;
 }
 
-/* CTA */
+
 .cta {
     background: #2f2f2f;
     color: white;
@@ -168,7 +168,7 @@ body {
     text-decoration: none;
 }
 
-/* RODAPÉ */
+
 .rodape {
     background: #050404;
     color: #ccc;
@@ -319,7 +319,7 @@ body::before {
   position: relative;
 }
 
-/* botão */
+
 .whatsapp-main {
   width: 56px;
   height: 56px;
@@ -336,7 +336,7 @@ body::before {
   justify-content: center;
 }
 
-/* menu */
+
 .whatsapp-options {
   position: absolute;
   top: 50%;
@@ -366,7 +366,7 @@ body::before {
   box-shadow: 0 6px 15px rgba(0,0,0,.18);
 }
 
-/* redes */
+
 .instagram,
 .facebook {
   width: 56px;
@@ -399,7 +399,7 @@ body::before {
   padding: 24px 0;
 }
 
-/* botão da pergunta */
+
 .faq-question {
    width: 100%;
   background: none;
@@ -415,13 +415,13 @@ body::before {
   text-align: left;
   padding: 0;
 }
-/* seta */
+
 .faq-arrow {
   font-size: 18px;
   transition: transform 0.25s ease;
 }
 
-/* resposta */
+
 .faq-answer {
   display: none;
 
@@ -433,7 +433,7 @@ body::before {
   transform: translateY(-6px);
 }
 
-/* estado ativo */
+
 .faq-item.active .faq-answer {
     display: block;
     animation: faqFade 0.25s ease forwards;
